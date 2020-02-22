@@ -1,0 +1,1 @@
+var signUpFiles = "admin_files/registration_files/sign_up.php";

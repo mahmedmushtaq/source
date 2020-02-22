@@ -1,0 +1,28 @@
+.check-box-div{
+    display: flex;
+    justify-content: start;
+}
+input[type='checkbox'] {
+    float: left;
+    width: 20px;
+}
+input[type='checkbox'] + label {
+    display: block;
+
+}
+
+.form-container{
+    margin-top:20px;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container{
+    position: static;
+    left: 0;
+    top: 0;
+    transform: translate(0,0);
+    margin: auto;
+}

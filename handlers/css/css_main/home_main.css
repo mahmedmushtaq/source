@@ -1,0 +1,416 @@
+@import "main_navbar.css";
+@import "search-input.css";
+
+
+/*.bg-image{*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+/*}*/
+
+/*@media (max-width: 769px) {*/
+    /*.bg-image{*/
+        /*height: 50%;*/
+    /*}*/
+/*}*/
+.main-body{
+    width: 80%;
+    margin: auto;
+
+}
+
+.break-div{
+    display: block;
+}
+
+.latest-posts-container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 1px 1px 1px #ecf0f1;
+
+}
+
+.latest-posts{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.latest-posts-img{
+    width: 20px;
+    height: 20px;
+}
+.latest-posts-heading-a{
+    font-size: 0.7em;
+    text-decoration: none;
+}
+.latest-posts-heading{
+    background: red;
+    padding: 10px;
+    color: white;
+    font-size: 1.1em;
+}
+.marquee{
+    width: 500vh;
+    overflow: hidden;
+
+}
+.marquee-holder{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.trending-div-holder{
+    margin-top: 30px;
+    width: 100%;
+    background: white;
+    display: flex;
+    padding-right: 10px;
+    box-shadow: 1px 1px 1px 1px #ecf0f1;
+}
+
+.left-trending-div{
+    /*width: 450px;*/
+    /*height: 350px;*/
+    margin: auto;
+
+
+}
+.left-trending-image{
+    width: 450px;
+    height: 350px;
+
+}
+/*.left-trending-image{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+.read-more-and-date-holder{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+}
+
+.left-trending-div span{
+      margin-top: -75px;
+      position: absolute;
+      background-image: linear-gradient(to right,black, transparent);;
+      text-align: center;
+
+      color: white;
+      display: none;
+
+
+
+}
+
+
+.left-trending-image:hover{
+    -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
+}
+
+.left-trending-image:hover + span{
+    display: block;
+}
+
+.left-trending-div span:hover{
+    display: block;
+}
+
+.left-trending-div span a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.right-post-container{
+    display: flex;
+
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    background: white;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+.right-trending-image{
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px 10px 30px;
+
+}
+
+.right-post-container span{
+    margin: auto;
+}
+
+.hr-line-div{
+    width: 70%;
+    margin: auto;
+}
+
+.search-div{
+
+}
+
+
+
+.search-bar input{
+    width: 60%;
+    padding: 20px;
+}
+.search-logo{
+    padding: 25px;
+}
+
+.search-bar{
+    display: none;
+}
+.recent_post_img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.post-grid-container{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 15px;
+}
+.recent_post{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 230px;
+
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+a:hover{
+    color: #34495e;
+}
+.bottom{
+    background: #34495e;
+    width: 100%;
+    height: 200px;
+}
+.bottom-container{
+    width: 300px;
+    height: 100%;
+    margin: auto;
+
+    text-align: center;
+
+
+}
+
+.bottom-container-logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-container h2{
+    color: white;
+}
+.share_it{
+    width: 30px;
+    height: 30px;
+
+}
+
+.subscription-div{
+    text-align: center;
+    background: #ecf0f1;
+    height: 300px;
+
+
+
+
+
+
+}
+
+.subscription-div input{
+    padding: 20px;
+    width: 50%;
+    font-family: var(--default-font);
+    margin-top: 100px;
+
+}
+.subscription-div button{
+    padding: 22px;
+    font-family: var(--default-font);
+    width: 15%;
+    background: #27ae60;
+    color: white;
+
+    border: 1px solid white;
+    box-shadow:1px 1px 1px 1px #ecf0f1;
+}
+
+.recent-post-txt-holder h1{
+    font-size: 1.2em;
+}
+
+.recent-post-txt-holder p{
+    font-size: 0.8em;
+}
+
+.recent-post-txt-holder p b{
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================   MEDIA QUERIES ================================== */
+
+@media (max-width: 769px) {
+    .break-div{
+        display: none;
+
+    }
+    .main-body{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .trending-div-holder{
+        flex-direction: column;
+    }
+
+    .left-trending-div{
+        width: 250px;
+        height: 250px;
+        margin: 30px auto;
+
+    }
+
+    .left-trending-image{
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .left-trending-div span{
+        display: none;
+    }
+
+    .right-trending-div{
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .right-trending-image{
+        width: 60px;
+        height: 60px;
+        margin: 0;
+
+    }
+
+    .right-post-container{
+        display: flex;
+        justify-content: space-around;
+        padding:20px;
+        margin-bottom: 5px;
+        box-shadow: 1px 1px 1px 1px #ecf0f1;
+        background: white;
+    }
+    .read-more-and-date-holder{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    .recent_post{
+        margin: auto;
+    }
+
+
+    .subscription-div{
+        padding-top: 70px;
+    }
+
+    .subscription-div input{
+        width: 60%;
+        margin:   auto;
+    }
+
+    .subscription-div button{
+        width: 60%;
+        margin:  auto;
+    }
+
+
+
+
+}
+
+
+@media(max-width: 480px){
+    .recent_post{
+        width: 120px;
+        height: 120px;
+        font-size: 0.6em;
+        margin: auto;
+
+    }
+
+    .recent_post_img{
+        width: 70px;
+        height: 70px;
+
+
+    }
+
+    .post-grid-container{
+
+        grid-template-columns: 120px 120px;
+
+        justify-content: center;
+
+
+
+    }
+
+    .right-trending-div{
+        font-size: 0.9em;
+    }
+}

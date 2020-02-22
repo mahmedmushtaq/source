@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+.hr-line{
+    width: 50%;
+    height: 0.1%;
+    background: lightsteelblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.hr-line-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,94 @@
+@import url(../horizental-line.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.welcome-heading{
+    font-size: 1.8em;
+    text-align: center;
+    margin: 70px  10px 15px;
+    color: #2980b9;
+}
+
+
+
+form{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+input {
+    width: 80%;
+    padding: 15px 35px;
+    margin-top: 20px;
+    font-family: var(--default-font);
+
+
+
+}
+
+.select{
+    width: 88%;
+    padding: 15px 35px;
+    margin-top: 20px;
+    font-family: var(--default-font);
+}
+
+
+
+
+.text-area{
+    padding: 15px 35px;
+
+    width: 80%;
+    margin: 30px auto 0;
+
+    text-align: start;
+    background: white;
+
+    font-family: var(--default-font);
+}
+
+.text-area-div{
+    margin-top: 20px;
+}
+
+[contenteditable=true]:empty:before{
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+    color: #7f8c8d;
+}
+
+
+
+#text {
+    width : 500px;
+    min-height : 100px;
+    border : 2px solid;
+    text-align: start;
+}
+
+.submit{
+    width: 85%;
+    color: white;
+    background: #e74c3c;
+    border: 1px solid white;
+}
+
+.post-images{
+    width: 30px;
+}
+
+.post-images-container{
+    margin-top: 20px;
+    display: none;
+}
+
+
+

@@ -1,0 +1,11 @@
+RewriteEngine on
+
+
+
+RewriteRule ^update_post/(\d+)$ update_post.php?id=$1 [NC,L]
+#RewriteRule ^admin_posts/last_id/(\d+)$ admin_posts.php?last_id=$1 [NC,L]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.+) $1.php [NC,L]
+
+

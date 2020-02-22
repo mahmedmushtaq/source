@@ -1,0 +1,32 @@
+.content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+    padding: 10px;
+    font-family: var(--default-font);
+}
+
+input{
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    font-family: var(--default-font);
+
+}
+textarea{
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    height: 200px;
+    font-family: var(--default-font);
+}
+
+input[type="submit"]{
+    padding: 15px;
+    margin: 10px;
+    background: red;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 3px 2px 10px 0px  #34495e;
+}

@@ -1,0 +1,17 @@
+.main-body{
+    width: 70%;
+    margin: auto;
+}
+
+p{
+    margin: 30px 0;
+}
+
+
+@media (max-width: 769px) {
+    .main-body{
+        width: 80%;
+        margin: auto;
+    }
+
+}

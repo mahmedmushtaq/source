@@ -1,0 +1,22 @@
+@import "../horizental-line.css";
+@import "all_posts.css";
+
+@import "search-input.css";
+
+/*.main-body{*/
+    /*width: 70%;*/
+    /*margin: auto;*/
+    /*text-align: center;*/
+/*}*/
+/*a{*/
+    /*color: #1d75b3;*/
+/*}*/
+
+.search-logo{
+    padding: 30px;
+}
+input{
+    width: 70%;
+}
+
+

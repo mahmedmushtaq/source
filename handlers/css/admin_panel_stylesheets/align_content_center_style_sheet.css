@@ -1,0 +1,28 @@
+@import "../horizental-line.css";
+.content{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+
+
+}
+.heading{
+
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.holder{
+    text-align: center;
+
+    margin-top: 30px;
+    word-break: break-all;
+    display: block;
+}
+
+@media (min-width: 769px) {
+    .content{
+        width: 60%;
+
+    }
+}

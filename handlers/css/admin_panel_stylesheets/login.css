@@ -1,0 +1,87 @@
+:root{
+    --default-font:'Poppins', sans-serif;
+}
+
+body {
+
+}
+
+.form-container{
+
+    box-shadow: 0 0 2px 2px #ecf0f1;
+
+    width: 35%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 50px 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.form{
+    width: 90%;
+
+}
+
+
+
+
+
+input{
+    align-self: center;
+    font-size: 17px;
+    padding: 10px 10px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border-top: none;
+
+    border-left: none;
+    border-right: none;
+
+}
+
+input:focus{
+    border-bottom: 1px solid #1abc9c;
+}
+
+.submit{
+    width: 35%;
+    border:1px solid #1abc9c;
+    background: #16a085;
+    color: white;
+
+    box-shadow: 0 0 1px 2px #ecf0f1;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup{
+    text-decoration: none;
+    color: #1b1e21;
+    font-family: var(--default-font);
+    margin-left: 30px;
+}
+
+
+@media(max-width:769px){
+    .form-container{
+        width: 65%;
+    }
+    .submit{
+        width: 100%;
+    }
+
+
+}

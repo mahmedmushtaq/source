@@ -1,0 +1,28 @@
+.search-logo{
+    width: 15px;
+    background: silver;
+    padding: 18.5px;
+    /*padding: 20px;*/
+    align-self: center;
+}
+
+.search-bar{
+
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+.search-bar input{
+
+    font-family: var(--default-font);
+    padding: 15px 10px;
+    font-size: 1.0em;
+
+
+}

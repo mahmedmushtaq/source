@@ -1,0 +1,48 @@
+@import "../horizental-line.css";
+
+.main-body{
+    margin: auto;
+    text-align: center;
+
+    width: 80%;
+}
+
+.hr-line-div{
+    width: 50%;
+    margin: auto;
+}
+.items{
+    width: 200px;
+    height: 200px;
+    background: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    font-size: 1.5em;
+}
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 10px;
+}
+
+.items:nth-child(even){
+    background: #e74c3c;
+}
+
+.items:last-child{
+    background: #27ae60;
+}
+.items a {
+    color: white;
+}
+
+
+@media(max-width: 769px){
+    .items{
+        margin: auto;
+    }
+}

@@ -1,0 +1,57 @@
+@import "../css_main/search-input.css";
+
+.content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/*.content > .post-container ~ .post-container{*/
+    /*!*its mean select all except first one*!*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+.post-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 3px 1px #7f8c8d;
+
+
+
+
+}
+
+.post-image{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+
+.post-heading{
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    font-size: 1.1em;
+}
+
+.font{
+    align-self: center;
+}
+
+input{
+    width: 100%;
+}
+
+@media(min-width: 769px){
+    .content{
+        width: 70%;
+    }
+}
+
+
+

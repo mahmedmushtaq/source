@@ -1,0 +1,19 @@
+RewriteEngine on
+
+
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.+) $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([-\w]+)$ posts_load.php?value=$1 [NC,L]
+
+
+RewriteRule ^sitemap\.xml$ sitemap.php [NC,L]
+
+#<Files .htaccess>
+#Order allow,deny
+#Deny from all
+#</Files>
+
+IndexIgnore *.png *.zip *.jpg *.gif *.doc *.php

@@ -1,0 +1,46 @@
+@import "../horizental-line.css";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 95%;
+    text-align: center;
+    margin-top: 70px;
+    height: 100vh;
+}
+
+.notification-container{
+    text-align: start;
+    padding: 0 40px;
+}
+
+.notification-below-line{
+    width: 100%;
+}
+
+
+
+
+.notification-a  p {
+    font-size: 0.8em;
+    color: black;
+}
+
+.notification-a{
+    border-bottom: transparent;
+}
+
+.notification-a:focus{
+    border-bottom: transparent;
+}
+
+@media (min-width: 769px) {
+    .content{
+        width: 70%;
+        margin: 70px auto;
+    }
+
+}
