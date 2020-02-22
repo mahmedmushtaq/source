@@ -12,7 +12,7 @@ $print = "";
 
 if(isset($_POST['submit'])){
     $value = mysqli_real_escape_string($con,$_POST['key']);
-    if($value === "xyj@%9"){
+    if($value === ""){
         $_SESSION['key'] = "start";
          $print = "session_started";
     }else{
